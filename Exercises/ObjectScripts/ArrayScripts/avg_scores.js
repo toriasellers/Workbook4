@@ -11,8 +11,8 @@ function getAverage(scores){
  
 }
     let avg = sum / scores.length;
-    console.log(avg.toFixed(2));
+    return avg.toFixed(2)
 }
 
-getAverage(myScores);
-getAverage(yourScores);
+console.log(getAverage(myScores));
+console.log(getAverage(yourScores));
