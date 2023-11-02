@@ -6,16 +6,27 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="football">Choose a Team:</label> 
-    <select id="teams"> 
+    <label for="football">Choose a Team:</label>
+    
+    <!-- First script markup -->
+    <!-- <select id="teams"> 
         <option id="blank"></option>
-        <option id="miami">Miami Dolphins</option> 
+        <option id="miami">Dolphins</option> 
         <option id="bucs">Bucs</option> 
         <option id="gators">Gators</option> 
         <option id="jaguars">Jaguars</option> 
+    </select> -->
+
+    <select id="teams"> 
+        <option value=""></option>
+        <option value="MIA">Miami Dolphins</option> 
+        <option value="TAM">The Bucs</option> 
+        <option value="UF">Gators</option> 
+        <option value="JAC">Jaguars</option> 
     </select>
 
-<input type="text" id="placeholder" readonly>
+
+<textarea readonly id="placeholder" cols="50" > Info Will Be Displayed Here! </textarea>
 
     <input id="submit" type="submit">
 
